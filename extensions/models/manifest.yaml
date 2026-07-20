@@ -1,0 +1,27 @@
+manifestVersion: 1
+name: "@mgreten/graphite-stack"
+version: "2026.07.20.1"
+description: >
+  Composition lifecycle for a Graphite (gt) multi-PR stack — validate a declared
+  linear plan, finalize one-commit units, cascade restacks, pin a composed head,
+  and submit gated, idempotent, ordered draft PRs.
+
+repository: https://github.com/meagerfindings/swamp-graphite-stack
+
+models:
+  - graphite_stack.ts
+
+additionalFiles:
+  - README.md
+  - LICENSE.txt
+
+labels:
+  - graphite
+  - git
+  - github
+  - stacked-prs
+  - pull-request
+
+platforms: []
+
+dependencies: []

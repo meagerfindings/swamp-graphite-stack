@@ -1,6 +1,7 @@
 manifestVersion: 1
 name: "@mgreten/graphite-stack"
-version: "2026.07.20.1"
+version: "2026.10.14.1"
+license: MIT
 description: >
   Composition lifecycle for a Graphite (gt) multi-PR stack — validate a declared
   linear plan, finalize one-commit units, cascade restacks, pin a composed head,
